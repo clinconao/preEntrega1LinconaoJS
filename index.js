@@ -1,4 +1,4 @@
-let answer = prompt ("¿Quieres calcular tu retencion de boletas de honorarios? Si/No")
+let answer = prompt ("¿Quieres calcular tu retención de boletas de honorarios? si/no (en minúsculas)")
 while (answer === "si") {
     const nombre = prompt ("Ingresa tu Nombre")
     const montoInicial = prompt ("Ingresa el monto a cobrar")
@@ -8,7 +8,4 @@ while (answer === "si") {
     alert("Hola " + nombre + " tu retención es de $" + calculoaRetener + " y la plata que queda en tu bolsillo es de $" + bolsillo)
     answer = prompt ("¿Quieres calcular otra boleta?")
 }
-
-alert("Ok, ahora verás la tabla de retencion por año")
-
-
+alert("Agradecido por tu visita, ahora verás la tabla de retención por año")
